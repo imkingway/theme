@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next -p 4000",
-    "prod:build": "next build",
-      "start": "next build"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
